@@ -1,27 +1,24 @@
 # Context-CrackNet Requirements
+# Tested with Python 3.9, CUDA 12.1
 
 # Core dependencies
-torch>=1.9.0
-torchvision>=0.10.0
+torch>=2.5.1
+torchvision>=0.20.1
 
 # Segmentation models for baselines
-segmentation-models-pytorch>=0.3.0
+segmentation-models-pytorch>=0.5.0
 
 # Image processing
-opencv-python>=4.5.0
-Pillow>=8.0.0
-albumentations>=1.0.0
+opencv-python>=4.8.0
+Pillow>=11.0.0
+albumentations>=2.0.6
 
 # Scientific computing
-numpy>=1.19.0
-scipy>=1.5.0
+numpy>=1.26.3
+scipy>=1.13.1
 
 # Configuration
-PyYAML>=5.4.0
+PyYAML>=6.0
 
 # Progress bars
-tqdm>=4.60.0
-
-# Optional: For development
-# matplotlib>=3.3.0
-# tensorboard>=2.4.0
+tqdm>=4.67.1

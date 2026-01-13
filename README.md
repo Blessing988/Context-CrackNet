@@ -1,8 +1,8 @@
 # Context-CrackNet
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-ee4c2c.svg)](https://pytorch.org/)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch 2.5+](https://img.shields.io/badge/PyTorch-2.5+-ee4c2c.svg)](https://pytorch.org/)
 [![DOI](https://img.shields.io/badge/DOI-10.1016/j.conbuildmat.2025.141583-blue)](https://doi.org/10.1016/j.conbuildmat.2025.141583)
 
 > **Context-CrackNet: A context-aware framework for precise segmentation of tiny cracks in pavement images**
@@ -111,8 +111,8 @@ Context-CrackNet/
 ## 🚀 Installation
 
 ### Requirements
-- Python ≥ 3.8
-- PyTorch ≥ 1.9
+- Python ≥ 3.9
+- PyTorch ≥ 2.5 (with CUDA 12.1 recommended)
 - CUDA (recommended for GPU training)
 
 ### Setup

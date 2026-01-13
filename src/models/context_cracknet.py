@@ -7,7 +7,7 @@ for crack segmentation in pavement images.
 The architecture combines:
 - ResNet50 encoder for hierarchical feature extraction
 - Linformer-based Context-Aware Global Module (CAGM) for global context
-- Attention-gated skip connections (Refined Feature Enhancement Module - RFEM)
+- Attention-gated skip connections (Region Focused Enhancement Module - RFEM)
 """
 
 import torch
@@ -64,7 +64,7 @@ class Context_CrackNet(nn.Module):
             ff_dim=ff_dim
         )
         
-        # Decoder with attention gates (RFEM - Refined Feature Enhancement Module)
+        # Decoder with attention gates (RFEM - Region Focused Enhancement Module)
         self.up4 = nn.ConvTranspose2d(2048, 1024, kernel_size=2, stride=2)
         self.attention3 = AttentionGate(F_g=1024, F_l=1024, F_int=512)
         self.conv3 = ConvBlock(2048, 1024)

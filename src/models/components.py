@@ -87,7 +87,7 @@ class ResNet50Encoder(nn.Module):
 
 class AttentionGate(nn.Module):
     """
-    Attention Gate for skip connections (Refined Feature Enhancement Module - RFEM).
+    Attention Gate for skip connections (Region Focused Enhancement Module - RFEM).
     
     Implements attention mechanism that learns to focus on relevant regions
     in the encoder features based on the decoder gating signal.

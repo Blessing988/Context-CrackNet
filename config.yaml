@@ -1,0 +1,27 @@
+# config.yaml
+
+model:
+  num_classes: 1
+  backbone: resnet50
+  pretrained: True
+  architecture: Context_CrackNet
+  use_dice: True
+  use_bce: True
+  use_rfem: True
+  use_cagm: True
+
+
+training:
+  batch_size: 4
+  num_epochs: 1000
+  learning_rate: 0.0001
+  weight_decay: 0.00001
+  early_stopping_patience: 100
+
+data:
+  root_dir: '/mmfs1/projects/armstrong.aboah/Pavement-distress-segmentation/Public-Datasets'
+  dataset_name: 'DeepCrack'
+  num_workers: 4
+
+utils:
+  save_dir: '/mmfs1/projects/armstrong.aboah/Pavement-distress-segmentation/trained_models_test'

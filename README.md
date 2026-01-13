@@ -138,18 +138,18 @@ pip install -r requirements.txt
 
 The following public crack segmentation datasets are supported:
 
-| Dataset | Description |
-|---------|-------------|
-| CFD | Crack Forest Dataset |
-| DeepCrack | Deep learning crack dataset |
-| CRACK500 | 500 pavement crack images |
-| cracktree200 | Tree-structured crack dataset |
-| Eugen_Muller | Müller crack dataset |
-| forest | Forest crack dataset |
-| GAPS384 | German Asphalt Pavement distress |
-| Rissbilder | German crack images |
-| Sylvie | Sylvie crack dataset |
-| Volker | Volker crack dataset |
+| Dataset | Crack Types | Surface Material | Lighting Conditions |
+|---------|-------------|------------------|---------------------|
+| CFD | Thin linear cracks | Asphalt pavement | Outdoor daylight, shadows, oil stains |
+| CRACK500 | Hairline, wide cracks | Asphalt road surfaces | Mixed outdoor, varied weather |
+| cracktree200 | Linear, alligator cracks | Asphalt pavement | Low contrast, uneven lighting |
+| DeepCrack | Pavement, stone cracks | Asphalt concrete; stone | Daylight, some laser-lit |
+| Eugen_Muller | Random cracks | Tunnel concrete | Tunnel lighting |
+| forest | Thin linear cracks | Asphalt pavement | Outdoor daylight, shadows |
+| GAPS384 | Longitudinal, transverse, block | Asphalt roads | Dry daylight |
+| Rissbilder | Architectural cracks | Concrete, masonry | Varied lighting |
+| Sylvie | Linear, network cracks | Asphalt pavement | Outdoor varied lighting |
+| Volker | Structural cracks | Concrete facades | Field conditions, well-lit |
 
 ### Expected Dataset Structure
 

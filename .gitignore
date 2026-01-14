@@ -101,16 +101,17 @@ logs/
 runs/
 tensorboard/
 
-# Data (don't upload large datasets)
-data/
-datasets/
+# Data (don't upload large datasets - only top-level)
+/data/
+/datasets/
 *.jpg
 *.png
 *.bmp
 !**/assets/*.png
 !**/assets/*.jpg
 
-# But keep config examples
+# But keep source code and config
+!src/data/
 !config.yaml
 !configs/*.yaml
 

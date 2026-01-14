@@ -74,6 +74,30 @@ flowchart TB
 | **RFEM** | Region Focused Enhancement Module | Attention gates on skip connections that learn to focus on crack-relevant regions by combining encoder features with decoder gating signals |
 | **ResNet50 Encoder** | — | ImageNet-pretrained backbone extracting hierarchical features at 5 scales (64→256→512→1024→2048 channels) |
 
+### CAGM: Context-Aware Global Module
+
+![CAGM Module Architecture](assets/contextual.png)
+
+### RFEM: Region Focused Enhancement Module
+
+![RFEM Module Architecture](assets/refinement-module-segmentation-v2.png)
+
+---
+
+## 🎯 Results
+
+### Segmentation Comparison
+
+Comparison of segmentation outputs across different models on crack detection:
+
+![Segmentation Results Comparison](assets/output-Context-CrackNet.png)
+
+### Attention Visualization
+
+Visualization of attention maps learned by Context-CrackNet:
+
+![Attention Maps](assets/attention-pave-cropped.png)
+
 ---
 
 ## 📁 Project Structure

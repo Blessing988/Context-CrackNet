@@ -332,7 +332,7 @@ model:
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{AGYEIKYEM2025141583,
+@article{Context-CrackNet,
   title = {Context-CrackNet: A context-aware framework for precise segmentation of tiny cracks in pavement images},
   journal = {Construction and Building Materials},
   volume = {484},
@@ -341,8 +341,7 @@ If you use this code in your research, please cite our paper:
   issn = {0950-0618},
   doi = {https://doi.org/10.1016/j.conbuildmat.2025.141583},
   url = {https://www.sciencedirect.com/science/article/pii/S0950061825017337},
-  author = {Blessing {Agyei Kyem} and Joshua Kofi Asamoah and Armstrong Aboah},
-  keywords = {Pavement distress, Segmentation, Deep learning, Cracks, Context-crackNet, Region-focused enhancement, Global context modeling}
+  author = {Blessing {Agyei Kyem} and Joshua Kofi Asamoah and Armstrong Aboah}
 }
 ```
 
